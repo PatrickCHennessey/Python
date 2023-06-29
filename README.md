@@ -1,4 +1,4 @@
-# Python 
+# Python
 Python exercises
 
 In this directory there are a variety of exercises and projects completed using the contained programs. 
