@@ -114,4 +114,4 @@
 # else:
 #     print('Object poses no threat')
 
-# File complete
+# Finished with boolean_logic_in_python.py file
