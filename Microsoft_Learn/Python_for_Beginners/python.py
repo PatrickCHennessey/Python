@@ -30,3 +30,5 @@ print(date.today())
 # print("Today's date is: " + date.today()) # <- results in traceback error
 
 print("Today's date is: " + str(date.today())) # <- converts date to a string
+
+# Finished with python.py file
