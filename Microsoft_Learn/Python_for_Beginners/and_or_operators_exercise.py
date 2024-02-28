@@ -15,4 +15,4 @@ if object_size > 5 and proximity < 1000:
 else:
     print('Object poses no threat')
 
-# Finished exercise
+# Finished with and_or_operators.py file
