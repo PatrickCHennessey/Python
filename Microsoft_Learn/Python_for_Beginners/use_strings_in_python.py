@@ -58,3 +58,38 @@
 # # 0
 # # .count() indicates how many times the designated item occurs in the string.
 
+# temperatures = "Mars Average Temperature: -60 C"
+# parts = temperatures.split(':')
+# print(parts)
+# print(parts[1])
+# # Output: ['Mars average temperature', ' -60 C']
+# # ' -60 C'
+# # -1 in this example returns the last item. 0 would return Mars Average Temperature. 1 would return -60 C
+
+# Exercise:
+
+# Step 1: Store the following paragraph as a variable called text.
+
+# Interesting facts about the Moon. The Moon is Earth's only satellite.
+# There are several interesting facts about the Moon and how it affects life here on Earth.
+# On average, the Moon moves 4cm away from the Earth every year.
+# This yearly drift is not significant enough to cause immediate effects on Earth.
+# The highest daylight temperature of the Moon is 127 C.
+
+text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
+print(text)
+
+# Step 2: Separate the paragraph into sentences
+
+text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
+sentences = text.split('.')
+print(sentences)
+
+# Step 3: Have script find any sentences that mention tempperature.
+# Have the code to loop through the sentences variable. For each sentence, search for the word temperature.
+# If the word is found, print the sentence.
+
+for sentence in sentences:
+    if 'temperature' in sentence:
+        print(sentence)
+
