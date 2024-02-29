@@ -76,20 +76,51 @@
 # This yearly drift is not significant enough to cause immediate effects on Earth.
 # The highest daylight temperature of the Moon is 127 C.
 
-text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
-print(text)
+# text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
+# print(text)
 
-# Step 2: Separate the paragraph into sentences
+# # Step 2: Separate the paragraph into sentences
 
-text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
-sentences = text.split('.')
-print(sentences)
+# text = """Interesting facts about the Moon. The Moon is Earth's only satellite. There are several interesting facts about the Moon and how it affects life here on Earth. On average, the Moon moves 4cm away from the Earth every year. This yearly drift is not significant enough to cause immediate effects on Earth. The highest daylight temperature of the Moon is 127 C."""
+# sentences = text.split('.')
+# print(sentences)
 
-# Step 3: Have script find any sentences that mention tempperature.
-# Have the code to loop through the sentences variable. For each sentence, search for the word temperature.
-# If the word is found, print the sentence.
+# # Step 3: Have script find any sentences that mention temperature.
+# # Have the code to loop through the sentences variable. For each sentence, search for the word temperature.
+# # If the word is found, print the sentence.
 
-for sentence in sentences:
-    if 'temperature' in sentence:
-        print(sentence)
+# for sentence in sentences:
+#     if 'temperature' in sentence:
+#         print(sentence)
 
+# # Exercise
+#
+# # Step 1: Start by creating three variables, name, gravity, and planet, and set them to the following values:
+# # name: Ganymede
+# # planet: Mars
+# # gravity: 1.43
+#
+# name = 'Ganymede'
+# gravity = 'Mars'
+# planet = '1.43'
+#
+# # Now you will create the template to display the information about the moon.
+# # You want the output to look like the following:
+#
+# # Gravity Facts about {name}
+# # --------------------------
+# # Planet Name: {planet}
+# # Gravity on {name}: {gravity} m/s2
+#
+# # Create a variable named template, and set it to the template you created.
+#
+# template = """Gravity Facts about {name} \n-------------------------- \nPlanet Name: {planet} \nGravity on {name}: {gravity} m/s2"""
+# print(template)
+#
+# # With the template created, it's time to use it to display information about the moon!
+# # Use the format function on template to use the template and print the information.
+# # Set name, planet, and gravity to the appropriate values.
+#
+# print(template.format(name=name, planet=planet, gravity=gravity))
+
+# Finished with use_strings_in_python.py file
