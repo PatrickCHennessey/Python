@@ -47,7 +47,7 @@ second_planet = 778547200
 # You have two variables which store the distance between each planet and a common point: the sun.
 
 # Start by adding the code to subtract first_planet from second_planet
-# and store the result in a variable named distance_km. Display the value to the screen.
+# and store the result in a variable named distance_km.
 
 # Then add the code to convert distance_km to miles by dividing
 # it by 1.609344 (the rough difference between miles and kilometers)
@@ -56,4 +56,12 @@ second_planet = 778547200
 # Subtract these two values to determine the distance between the planets.
 distance_km = second_planet - first_planet
 print(distance_km)
+# 628949330
+
+# Add the code to convert distance_km to miles by dividing it by 1.609344
+# (the rough difference between miles and kilometers), and store it in a variable named distance_mi
+
+distance_mi = distance_km / 1.609344
+print(distance_mi)
+# 390810995.0389724
 
