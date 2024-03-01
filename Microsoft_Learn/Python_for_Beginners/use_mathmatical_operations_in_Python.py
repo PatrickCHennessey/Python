@@ -33,3 +33,13 @@ print(display_seconds)
 # Converted the variables to a string to add "minutes" and "seconds" after both answers
 print(str(display_minutes) + ' minutes')
 print(str(display_seconds) + ' seconds')
+
+# Let's explore how we can create a program that can calculate the distance between two planets. '
+# We will start by using two planet distances: Earth (149,597,870 km) and Jupiter (778,547,200 km).
+# Note: Remove the commas when you're using the values.
+
+# Start by creating two variables named first_planet and second_planet.
+# Set first_planet to the distance from the sun to Earth, and second_planet for the distance from the sun to Jupiter.
+
+first_planet = 149597870
+second_planet = 778547200
