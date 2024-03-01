@@ -13,3 +13,8 @@ print(product)
 # Division
 quotient = 30 / 12
 print(quotient)
+
+# Exercise convert 1042 seconds to minutes and seconds
+seconds = 1042
+display_minutes = seconds / 60
+
