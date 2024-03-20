@@ -27,4 +27,3 @@
 # Add an input query
 
 print("Hello " + input("What is your name?"))
-
