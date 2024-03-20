@@ -26,5 +26,3 @@ print("Now based off of the information you entered it's time to generate a rad 
 
 generated_band_name = ("(The) " + city_name + " " + name_of_pet + "(s)")
 print(generated_band_name)
-
-# 5. Make sure the input cursor shows on a new line:
