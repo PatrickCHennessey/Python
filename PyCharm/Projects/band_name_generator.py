@@ -19,6 +19,12 @@ name_of_pet = input("Question #2: What is the name of your pet(s) ")
 print(name_of_pet + ", Right on! That's a great pet name!")
 
 # 4. Combine the name of their city and pet and show them their band name.
+print("Now based off of the information you entered it's time to generate a rad band name for your group. \n"
+      "Generating...\n"
+      "Generating...\n"
+      "Okay your new rocking band name is")
 
+generated_band_name = (city_name + " " + name_of_pet + "(s)")
+print(generated_band_name)
 
 # 5. Make sure the input cursor shows on a new line:
